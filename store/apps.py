@@ -6,3 +6,14 @@ class StoreConfig(AppConfig):
 
 
 #Need tp add more
+
+
+
+class CartConfig(AppConfig):
+    name = 'cart'
+
+class CheckoutConfig(AppConfig):
+    name = 'checkout'
+
+class MainConfig(AppConfig):
+    name = 'main'
